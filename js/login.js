@@ -1,0 +1,1 @@
+$("header").on("click",".login",function(){$(".form1").toggleClass("scale"),$(".login").toggleClass("hidden"),$(document).on("click",function(e){var l=$(".form1"),o=$(".login");l.is(e.target)||o.is(e.target)||0!==l.has(e.target).length||(l.removeClass("scale"),$(".login").removeClass("hidden"))})});

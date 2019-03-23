@@ -1,0 +1,1 @@
+$("div").on("click",".menu_logo",function(){$(".menu").toggleClass("scale"),$(".menu_box").toggleClass("menu_box_act"),$(document).on("click",function(e){var o=$(".menu_logo"),n=$(".menu_box");o.is(e.target)||n.is(e.target)||0!==o.has(e.target).length||($(".menu").removeClass("scale"),$(".menu_box").removeClass("menu_box_act"))})});
